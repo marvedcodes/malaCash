@@ -12,7 +12,7 @@ wherein the user can login, withdraw and deposit money. It can also transfer mon
 to a different currency account which will be converted based on user's currency.  
 
 ## How to Use the Project:  
-These are the account that can be use to log in:  
+These are the accounts that can be use to log in:  
   
 1) user: jdc  
    pin: 1111  
