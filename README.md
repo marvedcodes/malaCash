@@ -37,3 +37,5 @@ These are the accounts that can be use to log in:
    pin: 7777 
    
    To close the account: current user must be signed in. Note that once the account was close, that user will be deleted.  
+   
+   ## Make sure you know that this project is based on Jonas Schmedtmann's Bankist project with modifications.
