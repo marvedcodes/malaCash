@@ -37,7 +37,6 @@ These are the accounts that can be use to log in:
    pin: 7777 
    
    To close the account: current user must be signed in. Note that once the account was close, that user will be deleted.  
- 
-
-##License
+   
+## Note
  © Copyright by Marvin Pacis - This project is a complete refactoring of 'Bankist' App by Jonas Schmedtmann.
