@@ -333,6 +333,9 @@ h2 {
   font-weight: 600;
 }
 
+.footer {
+  color: #aaa;
+}
 .footer__item {
   margin-right: 4rem;
 }
