@@ -332,6 +332,22 @@ h2 {
 .timer {
   font-weight: 600;
 }
+
+.footer {
+  padding: 10rem 3rem;
+  background-color: #37383d;
+}
+
+.footer__item {
+  margin-right: 4rem;
+}
+
+.footer__link {
+  font-size: 1.6rem;
+  color: #eee;
+  text-decoration: none;
+}
+
 .footer__copyright {
   font-size: 1.4rem;
   color: #aaa;
