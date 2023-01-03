@@ -67,7 +67,6 @@ These are the accounts that can be use to log in:
 - Adding styles using JavaScript
 - Design as a Responsive web
 - Map and Reduce method in JavaScript
-- 
 
 Here is a code snippet:
 
