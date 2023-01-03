@@ -20,7 +20,7 @@ to a different currency account which will be converted based on user's currency
 
 ### Screenshot
 
-![numberGuessingGame](https://user-images.githubusercontent.com/108392678/197387185-bdf8a84a-9172-442e-844d-e1a9808efec1.png)
+![malacash vercel app_(Macbook Pro 16_)](https://user-images.githubusercontent.com/108392678/197386993-de25d694-cc04-4fb6-81e6-1b481dc95331.png)
 
 ### How to Use the Project
 
