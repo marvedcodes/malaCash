@@ -1,18 +1,29 @@
-# malaCash  
-
-![malacash vercel app_(Macbook Pro 16_)](https://user-images.githubusercontent.com/108392678/197386993-de25d694-cc04-4fb6-81e6-1b481dc95331.png)
-
-## Project's Title  
-
-malaCash (Bank Application)  
-
-## Project Description  
+# malaCash (Bank App)
 
 This project is a bank application which showcases common feature of an e-Bank   
 wherein the user can login, withdraw and deposit money. It can also transfer money  
 to a different currency account which will be converted based on user's currency.  
 
-## How to Use the Project:  
+## Table of contents
+
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [How to Use the Project](#how-to-use-the-project)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+
+## Overview
+
+### Screenshot
+
+![numberGuessingGame](https://user-images.githubusercontent.com/108392678/197387185-bdf8a84a-9172-442e-844d-e1a9808efec1.png)
+
+### How to Use the Project
+
 These are the accounts that can be use to log in:  
   
 1) user: jdc  
@@ -37,6 +48,52 @@ These are the accounts that can be use to log in:
    pin: 7777 
    
    To close the account: current user must be signed in. Note that once the account was close, that user will be deleted.  
-   
-## Note
- © Copyright by Marvin Pacis - This project is a complete refactoring of 'Bankist' App by Jonas Schmedtmann.
+
+### Links
+
+- DEMO: [Link](https://marvedventures.github.io/Number-Guessing-Game-v2/)
+
+## My process
+
+### Built with
+
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+### What I learned
+
+- DOM Manipulation
+- Internationalization API
+- Event Handling in JavaScript
+- Adding styles using JavaScript
+- Design as a Responsive web
+- Map and Reduce method in JavaScript
+- 
+
+Here is a code snippet:
+
+```script.js
+btnLogin.addEventListener('click', function (e) {
+  //prevent form from submitting
+  e.preventDefault();
+  //find method -> usernames
+  currentAccount = accounts.find(
+    accts => accts.username === inputLoginUsername.value
+  );
+  console.log(currentAccount);
+  if (currentAccount?.pin === +inputLoginPin.value) {
+    printWelcome(`${currentAccount.owner.split(' ')[0]}`);
+```
+
+
+### Useful resources
+
+- [MDN Docs (Events)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events) - This helped me for handling events in JavaScript.
+- [MDN Docs (Events)](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style) - This helped me for adding styles using JavaScript.
+- [MDN Docs(Intl.DateTimeFormat)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat) - This helped me for formatting dates in JS using Internationalization API 
+
+
+## Author
+
+- Website - [Marvin Morales Pacis](https://marvin-morales-pacis.vercel.app/)
+- LinkedIn - [@marvedventures](https://www.linkedin.com/in/marvedventures/)
+- Twitter - [@marvedventures](https://www.twitter.com/marvedventures)
