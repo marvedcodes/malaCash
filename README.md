@@ -51,7 +51,7 @@ These are the accounts that can be use to log in:
 
 ### Links
 
-- DEMO: [Link](https://marvedventures.github.io/Number-Guessing-Game-v2/)
+- DEMO: [Link](https://marventures.github.io/Number-Guessing-Game-v2/)
 
 ## My process
 
@@ -94,5 +94,5 @@ btnLogin.addEventListener('click', function (e) {
 ## Author
 
 - Website - [Marvin Morales Pacis](https://marvin-morales-pacis.vercel.app/)
-- LinkedIn - [@marvedventures](https://www.linkedin.com/in/marvedventures/)
-- Twitter - [@marvedventures](https://www.twitter.com/marvedventures)
+- LinkedIn - [@marventures](https://www.linkedin.com/in/marventures/)
+- Twitter - [@marventures11](https://www.twitter.com/marventures11)
